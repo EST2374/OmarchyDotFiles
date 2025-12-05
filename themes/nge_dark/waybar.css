@@ -1,0 +1,47 @@
+/* hypr theme */
+
+@define-color pink          #CC3333;
+@define-color blue          #ADADAD;
+@define-color text          #E0E0E0;
+@define-color base          #1A1A22;
+@define-color mantle        #2C2C34;
+@define-color crust         #1A1A22;
+@define-color surface0      #3E3E4C;
+@define-color surface1      #64B5F6;
+@define-color surface2      #00BCD4;
+@define-color subtext0      #FFEB3B;
+
+/*
+	br - border
+	bg - background
+	fg - foreground
+*/
+
+/* main colors */
+
+@define-color accent        @pink;
+@define-color main-br       @subtext0;
+@define-color main-bg       @crust;
+@define-color main-fg       @blue;
+@define-color hover-bg      @base;
+@define-color hover-fg      alpha(@main-fg, 0.75);
+@define-color outline       shade(@main-bg, 0.5);
+
+/* module colors */
+
+@define-color workspaces    @mantle;
+@define-color temperature   @mantle;
+@define-color memory        @base;
+@define-color cpu           @surface0;
+@define-color time          @surface0;
+@define-color date          @base;
+@define-color tray          @mantle;
+@define-color volume        @mantle;
+@define-color backlight     @base;
+@define-color battery       @surface0;
+
+/* state colors */
+
+@define-color warning       #FF6666;
+@define-color critical      #CC3333;
+@define-color charging      #8BC34A;
