@@ -1,7 +1,7 @@
 #!/bin/bash
 
 
-Themes=('nge_dark' 'nge_purple' 'nge_blue')
+Themes=('nge_dark' 'nge_purple' 'nge_blue' 'zelda')
 Confs=('waybar' 'walker' 'hypr' 'nvim')
 
 local_pth=~/.local/share/omarchy/themes/

@@ -1,0 +1,34 @@
+@define-color foreground #f5eeda;
+@define-color background #243a32;
+@define-color border #f0d867;
+
+window#waybar {
+    background-color: @background;
+    color: @foreground;
+    border-bottom: 2px solid @border;
+}
+
+#workspaces button {
+    color: @foreground;
+}
+
+#workspaces button.active {
+    color: @foreground;
+    border-bottom: 2px solid @border;
+}
+
+#clock,
+#battery,
+#cpu,
+#memory,
+#temperature,
+#network,
+#pulseaudio,
+#custom-media,
+#custom-pacman,
+#custom-powermenu {
+    background-color: @background;
+    color: @foreground;
+    padding: 0 10px;
+    border-left: 1px solid @border;
+}

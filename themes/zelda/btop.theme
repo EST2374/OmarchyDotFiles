@@ -1,0 +1,81 @@
+# Theme: Zelda Ocarina of Time
+# By: Gemini
+
+# Main bg
+theme[main_bg]="#243a32"
+
+# Main text color
+theme[main_fg]="#f5eeda"
+
+# Title color for boxes
+theme[title]="#f0d867"
+
+# Highlight color for keyboard shortcuts
+theme[hi_fg]="#f0d867"
+
+# Background color of selected item in processes box
+theme[selected_bg]="#3a5941"
+
+# Foreground color of selected item in processes box
+theme[selected_fg]="#f5eeda"
+
+# Color of inactive/disabled text
+theme[inactive_fg]="#5a4a42"
+
+# Misc colors for processes box including mini cpu graphs, details memory graph and details status text
+theme[proc_misc]="#48a08a"
+
+# Cpu box outline color
+theme[cpu_box]="#2d7543"
+
+# Memory/disks box outline color
+theme[mem_box]="#2d7543"
+
+# Net up/down box outline color
+theme[net_box]="#2d7543"
+
+# Processes box outline color
+theme[proc_box]="#2d7543"
+
+# Box divider line and small boxes line color
+theme[div_line]="#3a5941"
+
+# Temperature graph colors
+theme[temp_start]="#2d7543"
+theme[temp_mid]="#f0d867"
+theme[temp_end]="#b83d2d"
+
+# CPU graph colors
+theme[cpu_start]="#2d7543"
+theme[cpu_mid]="#f0d867"
+theme[cpu_end]="#b83d2d"
+
+# Mem/Disk free meter
+theme[free_start]="#2d7543"
+theme[free_mid]="#f0d867"
+theme[free_end]="#b83d2d"
+
+# Mem/Disk cached meter
+theme[cached_start]="#48a08a"
+theme[cached_mid]="#5e7e99"
+theme[cached_end]="#8e44ad"
+
+# Mem/Disk available meter
+theme[available_start]="#2d7543"
+theme[available_mid]="#f0d867"
+theme[available_end]="#b83d2d"
+
+# Mem/Disk used meter
+theme[used_start]="#b83d2d"
+theme[used_mid]="#f0d867"
+theme[used_end]="#2d7543"
+
+# Download graph colors
+theme[download_start]="#48a08a"
+theme[download_mid]="#5e7e99"
+theme[download_end]="#8e44ad"
+
+# Upload graph colors
+theme[upload_start]="#48a08a"
+theme[upload_mid]="#5e7e99"
+theme[upload_end]="#8e44ad"

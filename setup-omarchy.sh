@@ -7,7 +7,7 @@ RED='\033[0;31m'
 NC='\033[0m'
 
 # Add new Themes here 
-Themes=('nge_dark' 'nge_purple' 'nge_blue')
+Themes=('nge_dark' 'nge_purple' 'nge_blue' 'zelda')
 # Add new configs here
 Confs=('waybar' 'walker' 'hypr' 'nvim')
 
